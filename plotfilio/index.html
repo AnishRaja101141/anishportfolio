@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e18631c71f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/InShot_20250114_075053508.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header" class="bar">Home</a></li>
+            <li><a href="#about" class="bar">About</a></li>
+            <li><a href="#skill" class="bar">Services</a></li>
+            <li><a href="#portfolio" class="bar">Portfolio</a></li>
+            <li><a href="#contact" class="bar">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>web designer</p>
+          <h1>
+            Hi, i'm <span>Anish Raja</span><br />
+            from Ramanathapuram
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------about------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/user.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">Abour Me</h1>
+            <p>
+              The basic TextFree texting and voice service costs nothing because
+              it is supported by advertising. Users can pay for an ad-free
+              version with enhanced features called TextFree Plus. Basic
+              TextFree features include: Unlimited calls and text.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>web</span><br />designing</li>
+                <li><span>frentend</span><br />designing</li>
+                <li><span>backend</span><br />designing</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <li><span>2021</span><br />frentend</li>
+                <li><span>2022</span><br />backend</li>
+                <li><span>2023</span><br />ecommerce</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li><span>2025-B.sc</span><br />JP college arts and science</li>
+                <li><span>2022-12th</span><br />infant</li>
+                <li><span>2020-10th</span><br />mohamed sathak</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------services--- -->
+    <div id="skill">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web development</h2>
+            <p>
+              For front-end web development languages, you may want to start
+              with HTML, CSS, JavaScript, or PHP.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>frentend development</h2>
+            <p>
+              For front-end web development languages, you may want to start
+              with HTML, CSS, JavaScript, or PHP.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <h2>backend development</h2>
+            <p>
+              For front-end web development languages, you may want to start
+              with HTML, CSS, JavaScript, or PHP.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------portfolio---- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work1" />
+            <div class="layer">
+              <h3>social meadia app</h3>
+              <p>
+                Over 4.6 billion people globally use social media. We spend an
+                average of 2+ hours daily on social media.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2" />
+            <div class="layer">
+              <h3>musical app</h3>
+              <p>
+                In 2016, Musical.ly had over 90 million users, and by 2017, it
+                had over 200 million users.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work4" />
+            <div class="layer">
+              <h3>online shopping app</h3>
+              <p>
+                Consumers are increasingly using mobile apps over web browsers
+                for shopping. Apps offer a more personalized shopping
+                experience.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- ---------contact------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> anishraja897@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i> 8668102994</p>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/anish.preneur?igsh=dmNhcjhma2J4Y3Vk"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://wa.me/918668102994">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a href="mailto:anishraja897@gmail.com"><i class="fa-solid fa-envelope"></i></i></a>
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/cv resume anish1.pdf" download class="btn btn2">
+              Download CV
+            </a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">hello</span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>webpage made by <i class="fa-solid fa-heart"></i> Anish Raja</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyGTqdr5zRgPH9cU7zsmf_jo2NlSloEarKvFxV2EmdGDUZLIDhbojS4nhLr8q2VS7Tq5Q/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent sucessfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
